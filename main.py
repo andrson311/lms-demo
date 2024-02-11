@@ -43,7 +43,7 @@ def find_near_duplicates(df, target):
 if __name__ == '__main__':
     
     data = get_data()
-    data = data[:50]
+    data = data[:30]
 
     for _, row in data.iterrows():
         desc = row['description']
